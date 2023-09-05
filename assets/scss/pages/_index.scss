@@ -45,6 +45,26 @@ ol .card {
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito_vertical.png?raw=true); 
 }
 
+//alphabox輪播樣式
+.alphabox {
+  background-image: url(/assets/images/alpha.png);
+  height: 351px;
+  @include pc{
+    height: 560px;
+  }
+
+    &-title {
+      letter-spacing: 24px;
+        @include pc {
+      letter-spacing: 32px;
+    }
+}
+}
+.box{
+  @include gradient-y(#7000FF, #11002D);
+}
+
+
 //套件的CSS  
   //google-icon
 .material-symbols-outlined {
@@ -66,4 +86,3 @@ ol .card {
 .swiper-scrollbar-drag {
   background-color: #FFF;
 }
-

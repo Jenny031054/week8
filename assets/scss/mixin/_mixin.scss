@@ -1,0 +1,14 @@
+
+@mixin pc(){
+    @media (min-width:992px) {
+        @content
+    }
+};
+
+
+@mixin gradient-y ($start-color,$end-color){
+    background-image: linear-gradient(to bottom, $start-color,$end-color);
+};
+@mixin gradient-radial ($inner-color, $outer-color ) {
+    background-image: radial-gradient(circle, $inner-color, $outer-color);
+  };
