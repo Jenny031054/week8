@@ -1,0 +1,51 @@
+//字體
+
+.text-shrikhand {
+    font-family: 'Shrikhand';
+}
+
+.text-sairaExtra{
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+//字體顏色
+.text-copyright {
+    color: #AD93CF;
+}
+//字體大小
+.fs-128 {
+    font-size: 128px;
+}
+.fs-lg-400 {
+    @media (min-width:992px) {
+        font-size: 400px;
+    }
+    
+}
+.fs-lg-96 {
+    @media (min-width:992px) {
+        font-size: 96px;
+    }
+}
+
+
+//letter-spacing
+
+.text-spacing-lg {
+    letter-spacing: 80px;
+}
+
+.ls-16 {
+    letter-spacing: 16px;
+}
+.ls-48 {
+    letter-spacing: 48px;
+}
+
+//border
+
+.border-lg-end {
+    @media (min-width:992px) {
+        border-right: 1px solid #fff;
+    }
+}

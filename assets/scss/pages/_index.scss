@@ -1,3 +1,69 @@
-.index-title {
-  font-size: 100px;
+//AI人物圖片轉換
+.ai-img-index {
+  height: 351px;
+  flex-shrink: 0;
+  background-size:cover ;
+  background-position: center;
+  @media (min-width:992px) {
+    height: 580px;
+  }
+
 }
+.ai-img-index-lg {
+  height: 351px;
+  flex-shrink: 0;
+  background-size:cover ;
+  background-position: center;
+  @media (min-width:992px) {
+    height: 676px;
+  }
+
+}
+ol .card {
+  background-blend-mode:darken ;
+  
+  background-position: center;
+  background-size: cover;
+  transition: all 1s;
+  &:hover{
+    background-color: rgb(0, 0, 0/0.5);
+  }
+}
+.ai-card-hover-diana {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane_vertical.png?raw=true); 
+}
+
+.ai-card-hover-felix {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/felix_vertical.png?raw=true); 
+}
+
+.ai-card-hover-karina {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/karina_verticalgle.png?raw=true); 
+}
+
+.ai-card-hover-vito {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito_vertical.png?raw=true); 
+}
+
+//套件的CSS  
+  //google-icon
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 0,
+  'GRAD' 0,
+  'opsz' NaN
+}
+
+.swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.swiper {
+  overflow: initial;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #FFF;
+}
+
