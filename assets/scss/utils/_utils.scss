@@ -51,6 +51,12 @@
 }
 
 //漸層背景
-//.bg-circle{
-//    @include gradient-radial (#28085C,#000);
-//}
+.bg-circle{
+    @include gradient-radial (#28085C,#000);
+}
+
+//others
+
+.rotate {
+    rotate: 180deg;
+  }

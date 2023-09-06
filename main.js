@@ -1,7 +1,7 @@
 import './assets/scss/all.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-const swiper = new Swiper('.swiper', {
+const commentSwiper = new Swiper('.comment-swiper', {
     spaceBetween: 24,
     slidesPerView: 3,
     // And if we need scrollbar
@@ -11,5 +11,26 @@ const swiper = new Swiper('.swiper', {
     },
     mousewheel: true,
   });
+
+  const productSwiper = new Swiper('.product-swiper', {
+   
+      autoplay: {
+        delay: 5000,
+      },
+       breakpoints: {
+         768: {
+           autoplay: {
+             enabled: false,
+           }
+         }
+       },
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+   });
+
+
+ 
 
 
