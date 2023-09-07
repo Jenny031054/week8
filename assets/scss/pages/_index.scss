@@ -1,6 +1,52 @@
+//alphabox-circle-logo
+@keyframes rotate {
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.alphabox-circle-logo {
+  
+  animation:rotate 4s ;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.alphabox-circle-logo-more ::before {     
+  content: "查看更多";
+  width: 100px;
+  height: 50px;
+  color: #FFF;
+  background-color: #000;
+  position: absolute;
+  top:0;
+  left: 0;
+          
+
+}
+
+//hamburger-list
+.hamburger-list {
+  top:60px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFF;
+  width: 100%;
+  height: 450px;
+  background-color: #7000FF;
+  z-index: 1000;
+  @include gradient-y(#7000FF, #11002D);
+
+}
+
+
+
 //AI人物圖片轉換
+
 .ai-img-index {
   height: 351px;
+  width: auto;
   flex-shrink: 0;
   background-size:cover ;
   background-position: center;
@@ -19,6 +65,31 @@
   }
 
 }
+.diana-img {
+background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane_square1.png?raw=true);
+  @include pc{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane.png?raw=true);
+  }
+}
+.felix-img {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/felix_square1.png?raw=true);
+  @include pc{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/felix.png?raw=true)
+  }
+}
+.karina-img {
+background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/karina_square1.png?raw=true);
+  @include pc{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/karina.png?raw=true);
+  }
+}
+.vito-img {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito_square1.png?raw=true);
+  @include pc{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito.png?raw=true);
+  }
+}
+
 ol .card {
   background-blend-mode:darken ;
   background-color: #000;
@@ -31,24 +102,39 @@ ol .card {
   }
 }
 .ai-card-hover-diana {
-  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane_vertical.png?raw=true); 
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane_square1.png?raw=true);
+  @include pc (){
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane_vertical.png?raw=true);
+  }
+   
 }
 
 .ai-card-hover-felix {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/felix_square1.png?raw=true);
+  @include pc (){
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/felix_vertical.png?raw=true); 
+  }
 }
 
 .ai-card-hover-karina {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/karina_square1.png?raw=true);
+  @include pc(){
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/karina_verticalgle.png?raw=true); 
+}
 }
 
 .ai-card-hover-vito {
-  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito_vertical.png?raw=true); 
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito_square1.png?raw=true);
+  @include pc(){
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito_vertical.png?raw=true); 
+  }
+ 
 }
 
 //alphabox輪播樣式
 .comment-swiper {
    height: 416px;
+
 }
 .alphabox {
   background-image: url(/assets/images/alpha.png);
@@ -69,9 +155,7 @@ ol .card {
     }
 }
 }
-.box{
-  @include gradient-y(#7000FF, #11002D);
-}
+
 
 // 箭頭
 .swiper-button-next, .swiper-button-prev {

@@ -22,35 +22,45 @@
 <!--4個角色圖片-->
     <div class="bg-primary px-md-10" style="background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/home_background.png?raw=true);">
       <div class="container-fluid ">
-        <div class="d-flex justify-content-between pt-8 pb-7">
-          <p class="border-bottom fw-bold">最新消息！新版本 v15.4 釋出，搶先體驗！</p>
-          <div class="circle-logo"></div>
-          <div class="d-flex justify-content-between flex-column border-top">
-            <p class="fw-bold">ALPHABOX+ STUDIO</p>
-            <p class="text-copyright">Copyright © 2023 Hexschool.</p>
+        <div class="d-flex flex-column flex-lg-row justify-content-between pt-8 pb-7">
+          <p class="border-bottom fw-bold d-none d-lg-block">最新消息！新版本 v15.4 釋出，搶先體驗！</p>
+          <p class="d-lg-none border-top fw-bold mb-6">ALPHABOX+ STUDIO</p>
+          <div class="mx-auto">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/circle.png?raw=true" alt="circle" class="alphabox-circle-logo d-block img-fluid" width="196px">
+          </div>
+          <div class="d-none d-lg-block">
+            <div class="d-flex justify-content-between flex-column border-top ">
+              <p class="fw-bold">ALPHABOX+ STUDIO</p>
+              <p class="text-copyright">Copyright © 2023 Hexschool.</p>
+            </div>
           </div>
         </div>
         <!--圖片區+h1-->
         <div class="row d-flex align-items-end justify-content-between mt-3 flex-wrap flex-md-nowrap">
+          <div class="col-12  d-md-none">
+            <h1 class="text-shrikhand fs-5 text-center ls-26">ALPHABOX+</h1>
+            <h2 class="fs-6 fs-bold text-center mb-5">擁抱未來科技，專屬您的3D立體投影陪伴機器人</h2>
+          </div>
+      
           <div class="col-12 col-md-3  mb-3">
-            <div class="text-shrikhand fs-2 pt-2 text-center fw-bold ai-img-index-lg " style="background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane.png?raw=true); ">Diane</div>
+            <div class="text-shrikhand fs-2 pt-2 text-center fw-bold ai-img-index-lg diana-img" >Diane</div>
           </div>
           
           <div class="col-12 col-md-6 ">
-            <h1 class="text-shrikhand text-center">ALPHABOX+</h1>
-            <h2 class="fs-6 fs-bold text-center mb-5">擁抱未來科技，專屬您的3D立體投影陪伴機器人</h2>
+            <h1 class="d-none d-md-block text-shrikhand text-center">ALPHABOX+</h1>
+            <h2 class="d-none d-md-block fs-6 fs-bold text-center mb-5">擁抱未來科技，專屬您的3D立體投影陪伴機器人</h2>
             <div class="row">
               <div class="col-12 col-md-6  mb-3">
-                <div class="text-shrikhand fs-2 pt-2 text-center fw-bold ai-img-index" style="background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/felix.png?raw=true); ">Felix</div>
+                <div class="text-shrikhand fs-2 pt-2 text-center fw-bold ai-img-index felix-img" >Felix</div>
               </div>
               <div class="col-12 col-md-6  mb-3">
-                <div class="text-shrikhand fs-2 pt-2 text-center fw-bold ai-img-index" style="background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/karina.png?raw=true); ">Karina</div>
+                <div class="text-shrikhand fs-2 pt-2 text-center fw-bold ai-img-index karina-img" >Karina</div>
               </div>
              
             </div>
           </div>
           <div class="col-12 col-md-3  mb-3">
-            <div class="text-shrikhand fs-2 pt-2 text-center fw-bold ai-img-index-lg" style="background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito.png?raw=true); ">Vito</div>
+            <div class="text-shrikhand fs-2 pt-2 text-center fw-bold ai-img-index-lg vito-img" >Vito</div>
           </div>
         </div>
       </div>
@@ -71,7 +81,7 @@
       </div>
       <!-- Slides -->
       <div class="col-10 col-md-9 mt-3">
-        <div class="product-swiper">
+        <div class="product-swiper overflow-hidden">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="alphabox d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center">
@@ -120,7 +130,7 @@
     </div>
   </div>
 </div>
-<div class="container-fluid  ">
+<div class="container-fluid mb-7 ">
   <div class="box-gradident-left rotate mx-lg-7 mt-6" style="height: 40px;"></div>
 </div>
 <!--最新消息-->
@@ -129,7 +139,7 @@
   <h2 class="display-5 fw-bold ls-48 border-bottom border-white py-5 py-lg-7">最新消息</h2>
   <div class="border-bottom border-white">   
    <div class="py-4 py-lg-7 px-3 "> 
-      <a href="#" class="text-white d-flex justify-content-between ">
+      <a href="./news.html" class="text-white d-flex justify-content-between ">
         <div class="col-lg-9">
           <div class="d-flex mb-1"> 
             <span class="material-symbols-outlined me-1">
@@ -150,7 +160,7 @@
     </div>
     </div>
     <div class="d-flex flex-column flex-lg-row border-bottom border-top  border-white">
-      <a href="#" class="text-white py-4 py-lg-7 px-3 border-lg-end">
+      <a href="./news.html" class="text-white py-4 py-lg-7 px-3 border-lg-end">
         <div class="d-flex mb-1">
         <span class="material-symbols-outlined me-1">
           emergency
@@ -161,7 +171,7 @@
         <p class="mb-2">榮幸地宣布，ALPHABOX+ 已成功完成最新一代的升級！本次升級包括提升投影解析度、優化語音辨識技術，以及擴充情感識別功能。歡迎您了解本次升級帶來的更為卓越的性能！</p>
         <img src="../assets\images\line_end_arrow_notch.png" alt="line_end_arrow" width="90px">
       </a>
-      <a href="#" class="text-white py-4 py-lg-7 px-3 ">
+      <a href="./news.html" class="text-white py-4 py-lg-7 px-3 ">
         <div class="d-flex mb-1">
         <span class="material-symbols-outlined me-1">
           emergency
@@ -174,14 +184,19 @@
       </a>
 
     </div>
-  <p class="text-end">為環保盡一份心力，我們的包裝盒和紙質說明書都使用環保材料</p>
+
+    <a href="#" class="position-relative  mt-6">
+      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/circle.png?raw=true" alt="" class="mx-auto img-fluid d-block  alphabox-circle-logo-more" style="width: 132px;">
+    </a>
+
+  <p class="text-end d-none d-lg-block">為環保盡一份心力，我們的包裝盒和紙質說明書都使用環保材料</p>
 
   </div>
 </div>
 <!--使用分享-->
 <div class=" py-lg-7" style="background-color: #28085C;">
   <div class="container" >
-    <div class="d-flex flex-column flex-lg-row align-items-center  mb-3">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-center  mb-3">
       <div class="py-5 py-lg-7">
         <h2 class="display-5 fw-bold ls-48 py-3 ">
           使用分享 
@@ -272,7 +287,7 @@
           </div>
         </div>
         <!-- Scrollbar -->
-        <div class="row align-items-center mt-5">
+        <div class="row align-items-center mt-6">
           <div class="col-8">
             <!-- 加上 position-static 將滾動條的絕對定位設定覆蓋 -->
             <div class="swiper-scrollbar position-static"></div>
@@ -286,14 +301,14 @@
 
   </div> 
   <div class="container mt-6">
-    <p class="">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
+    <p class="pb-4">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
   </div>
 </div>
 
 
 <!--聯絡我們-->
-<div class="bg-secondary">
-  <div class="container py-lg-7 ">
+<div class="bg-secondary ">
+  <div class="container py-7 ">
     <div class="row">
       <div class="col-lg-5">
         <h2 class="display-5 fw-bold ls-48 py-lg-7">聯絡我們</h2>
@@ -340,7 +355,7 @@
                 Diane
               </h4>
               <div class="d-flex flex-column flex-lg-row text-white justify-content-lg-between p-2">
-                <div class="d-flex flex-lg-column justify-content-between align-items-start">
+                <div class="d-flex flex-column justify-content-between align-items-start">
                   <h6 class="fw-bold ">知識型</h6>
                   <p class="">學術領導/知識分享/智能問答</p>
                 </div>
@@ -359,7 +374,7 @@
                 Felix
               </h4>
               <div class="d-flex flex-column flex-lg-row text-white justify-content-lg-between p-2">
-                <div class="d-flex flex-lg-column justify-content-between align-items-start">
+                <div class="d-flex flex-column justify-content-between align-items-start">
                   <h6 class="fw-bold ">娛樂型</h6>
                   <p class="">音樂播放/語音互動/遊戲陪伴</p>
                 </div>
@@ -379,7 +394,7 @@
                 Karina
               </h4>
               <div class="d-flex flex-column flex-lg-row text-white justify-content-lg-between p-2">
-                <div class="d-flex flex-lg-column justify-content-between align-items-start">
+                <div class="d-flex flex-column justify-content-between align-items-start">
                   <h6 class="fw-bold ">生活型</h6>
                   <p class="">健康提醒/日程安排/智能家居</p>
                 </div>
@@ -399,7 +414,7 @@
                 Vito
               </h4>
               <div class="d-flex flex-column flex-lg-row text-white justify-content-lg-between p-2">
-                <div class="d-flex flex-lg-column justify-content-between align-items-start">
+                <div class="d-flex flex-column justify-content-between align-items-start">
                   <h6 class="fw-bold ">情感型</h6>
                   <p class="">情感識別/心情分析/心靈支持</p>
                 </div>
