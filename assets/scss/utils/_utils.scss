@@ -57,6 +57,10 @@
 .bg-circle{
     @include gradient-radial (#28085C,#000);
 }
+.backdrop-filter {
+    background-image: url(/assets/images/alpha.png);
+    backdrop-filter: blur(5px);
+}
 
 //others
 
