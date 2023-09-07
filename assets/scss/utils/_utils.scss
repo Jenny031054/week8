@@ -27,6 +27,9 @@
         font-size: 96px;
     }
 }
+.fw-bolder {
+    font-weight: 900;
+}
 
 
 //letter-spacing
@@ -34,9 +37,14 @@
 .text-spacing-lg {
     letter-spacing: 80px;
 }
-
+.ls-14 {
+    letter-spacing: 14px;
+}
 .ls-16 {
     letter-spacing: 16px;
+}
+.ls-20 {
+    letter-spacing: 20px;
 }
 .ls-26 {
     letter-spacing: 26px;
@@ -61,6 +69,7 @@
     background-image: url(/assets/images/alpha.png);
     backdrop-filter: blur(5px);
 }
+
 
 //others
 
