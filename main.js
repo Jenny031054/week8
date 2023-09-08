@@ -2,18 +2,10 @@ import './assets/scss/all.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 const commentSwiper = new Swiper('.comment-swiper', {
+  slidesPerView: 3,
+  spaceBetween: 24,
     
-    breakpoint: {
-    414: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    768: {
-      
-      slidesPerView: 3,
-      spaceBetween: 24,
-    },
-  },
+  
     // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',

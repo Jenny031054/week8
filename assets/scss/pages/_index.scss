@@ -13,15 +13,15 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.alphabox-circle-logo-more ::before {     
-  content: "查看更多";
+//查看更多logo
+.alphabox-circle-logo-more {     
+ 
   width: 100px;
   height: 50px;
   color: #FFF;
-  background-color: #000;
   position: absolute;
   top:0;
-  left: 0;
+  left: 50%;
           
 
 }
@@ -131,6 +131,8 @@ ol .card {
  
 }
 
+
+
 //alphabox輪播樣式
 .comment-swiper {
    height: 416px;
@@ -154,6 +156,23 @@ ol .card {
       letter-spacing: 32px;
     }
 }
+}
+
+//bg-carousel
+
+.bg-carousel-right {
+  @include gradient-left(#28085C,#000);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+
+}
+.bg-carousel {
+  background-image: url(/assets/images/carousel_background.png);
+  background-blend-mode: darken;
+  background-position: 0%;
+  background-repeat: no-repeat;
+  
 }
 
 
